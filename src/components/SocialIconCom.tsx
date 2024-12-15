@@ -33,7 +33,7 @@ const SocialIconCom = () => {
                     aria-label={`Link to ${icon.imgUrl.split('/')[1].split('.')[0]}`}
                 >
                     <img
-                        className="w-8 p-1 bg-secondary rounded-lg hover:bg-gray-300 transition duration-200 ease-in-out"
+                        className="w-8 sm:w-10 md:w-8 lg:w-8 p-1 bg-secondary rounded-lg hover:bg-gray-300 transition duration-200 ease-in-out"
                         src={icon.imgUrl}
                         alt={`${icon.imgUrl.split('/')[1].split('.')[0]} Icon`}
                     />
