@@ -30,7 +30,7 @@ module.exports = {
         primary: '#1D4ED8', // Blue
         secondary: '#E5E7EB', // Green
         tertiary: '#D1D5DB', // Gray
-        accent: '#D97706', // Amber
+        accent: '#FFC107', // Amber
         hover: '#2563EB', // Light Blue
         textLight: '#6B7280', // Gray for less emphasized text
         

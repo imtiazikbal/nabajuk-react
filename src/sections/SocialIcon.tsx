@@ -1,7 +1,9 @@
 import SocialIconCom from "../components/SocialIconCom";
+import { formatDateToBengali } from "../utils/formatDateToBengali";
 
-const SocialIcon = () => {
+const SocialIcon = ( ) => {
     return (
+     
        <SocialIconCom />
     );
 };

@@ -1,4 +1,6 @@
+import { Calendar } from 'iconsax-react';
 import React from 'react';
+import { formatDateToBengali } from '../utils/formatDateToBengali';
 
 /**
  * SocialIcon Component
@@ -24,6 +26,10 @@ const SocialIcons: ISocialIcon[] = [
 const SocialIconCom = () => {
     return (
         <div className="flex items-center justify-end gap-4">
+              <div className="flex items-center gap-[10px]">
+                <Calendar size={20} />
+                {formatDateToBengali(new Date())}
+            </div>
             {SocialIcons.map((icon, index) => (
                 <a 
                     href={icon.link || ""} 
