@@ -4,6 +4,7 @@ import SocialIcon from './sections/SocialIcon';
 import Header from './sections/Header';
 import HeroSection from './sections/HeroSection';
 import Scroll from './sections/Scroll';
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
   <Header />
   <Scroll />
   <HeroSection />
+  <Footer />
     </div>
     
   );
