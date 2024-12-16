@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div>
       {/* Logo and Hamburger Menu for Mobile */}
-      <div className="flex justify-between items-center py-4 px-4">
+      <div className="flex justify-between items-center py-4 px-4 md:px-0 md:py-0 md:mb-4">
         <div className='flex justify-between items-center gap-4'>
             {/* Home Logo */}
         <HomeLogo />
@@ -52,7 +52,7 @@ const Header = () => {
       </ParentSideBar>
 
       {/* Desktop Navigation Bar */}
-      <header className="bg-secondary text-black py-4 px-4 hidden md:block">
+      <header className="bg-secondary text-black py-4 px-4  hidden md:block">
         <div className="container mx-auto flex justify-between items-center">
           {/* Navigation Bar for Desktop */}
           <nav className="hidden md:flex justify-center items-center w-full">

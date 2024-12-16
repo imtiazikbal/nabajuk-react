@@ -25,7 +25,7 @@ const SocialIcons: ISocialIcon[] = [
 
 const SocialIconCom = () => {
     return (
-        <div className="flex items-center justify-end gap-4">
+        <div className="flex items-center justify-end gap-2">
               <div className="flex items-center gap-[10px]">
                 <Calendar size={20} />
                 {formatDateToBengali(new Date())}
