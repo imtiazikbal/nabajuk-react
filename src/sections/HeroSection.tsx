@@ -70,7 +70,7 @@ const HeroSection = () => {
   <div className="mt-2 absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-secondary hover:bg-tertiary p-4 w-full">
     <p className="font-semibold text-lg text-black">মোঃ জহিরুল ইসলাম জুয়েল </p>
     <p className="text-sm text-black">
-    সাধারণ সম্পাদক , বযুগ ক্রীড়াচক্র ,নিজমাওনা 
+    সাধারণ সম্পাদক , নবযুগ ক্রীড়াচক্র ,নিজমাওনা 
     </p>
   </div>
 </div>
