@@ -11,7 +11,7 @@ function App() {
     <div className="App h-screen w-[80%] m-auto py-4" >
   <SocialIcon />
   <Header />
-  <Scroll />
+  {/* <Scroll /> */}
   <HeroSection />
   <Footer />
     </div>
