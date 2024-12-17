@@ -34,13 +34,13 @@ const HeroSection = () => {
         />
         <button
           onClick={prevImage}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-black text-white p-2"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-primary p-2"
         >
           &#8249;
         </button>
         <button
           onClick={nextImage}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-black text-white p-2"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-primary p-2"
         >
           &#8250;
         </button>
