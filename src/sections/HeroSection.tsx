@@ -64,7 +64,7 @@ const HeroSection = () => {
         <div className="relative text-center">
   <img
     className="mx-auto"
-    src="https://placehold.co/400?text=Md: Jahirul Islam Jowel"
+    src="/secretary.png"
     alt="Thumbnail 1"
   />
   <div className="mt-2 absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-secondary hover:bg-tertiary p-4 w-full">
